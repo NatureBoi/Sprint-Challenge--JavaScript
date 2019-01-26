@@ -8,7 +8,7 @@
 */
 
 function consume(x,y,cb){
-  return cb(x,y)
+  return cb(x,y);
 }
 
 /* Step 2: Create several functions to callback with consume();
@@ -17,15 +17,15 @@ function consume(x,y,cb){
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 function add(x,y){
-  return x + y
+  return x + y;
 }
 
 function multiply(x,y){
-  return x * y
+  return x * y;
 }
 
 function greeting(first,last){
-  return  `Hello ${first} ${last}, nice to meet you!`
+  return  `Hello ${first} ${last}, nice to meet you!`;
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
